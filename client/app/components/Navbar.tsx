@@ -17,10 +17,9 @@ import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 export default function Navbar() {
+  const router=useRouter()
   const firebaseConfig = {
     apiKey: "AIzaSyDU6jbiYYF6GM1wZVE7G1uqzbuLI4nhTDY",
-    // "AIzaSyDU6jbiYYF6GM1wZVE7G1uqzbuLI4nhTDY"
-
     authDomain: "job-portal-mern-c0ff5.firebaseapp.com",
     projectId: "job-portal-mern-c0ff5",
     storageBucket: "job-portal-mern-c0ff5.appspot.com",
@@ -46,12 +45,10 @@ export default function Navbar() {
         setIslogin(true);
         localStorage.setItem("user", JSON.stringify(user));
         toast.success("Successfully logged in");
-  
-        // ...
+
       })
       .catch(() => {
-        alert("Login failed");
-        // ...
+        toast.error("Login failed");
       });
   };
 
@@ -61,7 +58,7 @@ export default function Navbar() {
   
     setIslogin(false);
     setUser(null);
-    navigate("/")
+    router.push("/")
     setIsMenuOpen(false)
   };
  

@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { Poppins } from 'next/font/google';
 import Navbar from "./components/Navbar";
+import { ToastContainer } from "react-toastify";
 
 const inter = Inter({ subsets: ["latin"] });
 const poppins = Poppins({
@@ -24,6 +25,7 @@ export default function RootLayout({
   return (
     <html className={`${poppins.variable}`}>
       <body className={inter.className}>
+        <ToastContainer/>
         <Navbar/>
         {children}
       </body>
