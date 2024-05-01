@@ -1,0 +1,98 @@
+[
+  {
+    "title": "Software Engineer",
+    "location": "Brussels",
+    "companyName": "Linear company",
+    "logo": "/images/Linear.png",
+    "salary": "3000",
+    "email": "john.doe@example.com"
+  },
+  {
+    "title": "Web Developer",
+    "location": "San Francisco",
+    "companyName": "Notion",
+    "logo": "/images/Notion.png",
+    "salary": "5000",
+    "email": "jane.smith@example.com"
+  },
+  {
+    "title": "Prompt Engineer",
+    "location": "Seattle",
+    "companyName": "Spline studio",
+    "logo": "/images/Spline.png",
+    "salary": "8000",
+    "email": "alice.doe@example.com"
+  },
+  {
+    "title": "Principle Engineer",
+    "location": "London",
+    "companyName": "Raycast corp",
+    "logo": "/images/Raycast.png",
+    "salary": "5000",
+    "email": "bob.johnson@example.com"
+  },
+  {
+    "title": "Frontend Developer",
+    "location": "London",
+    "companyName": "Loom",
+    "logo": "/images/Loom.png",
+    "salary": "7500",
+    "email": "emily.williams@example.com"
+  },
+  {
+    "title": "DevOps Engineer",
+    "location": "Boston",
+    "companyName": "Trainline group",
+    "logo": "/images/Trainline.png",
+    "salary": "8120",
+    "email": "michael.anderson@example.com"
+  },
+  {
+    "title": "Software Engineer 2",
+    "location": "Brussels",
+    "companyName": "Linear company",
+    "logo": "/images/Linear.png",
+    "salary": "3080",
+    "email": "sarah.jones@example.com"
+  },
+  {
+    "title": "Web Developer",
+    "location": "San Francisco",
+    "companyName": "Notion",
+    "logo": "/images/Notion.png",
+    "salary": "5000",
+    "email": "david.miller@example.com"
+  },
+  {
+    "title": "Data Scientist",
+    "location": "Seattle",
+    "companyName": "Spline studio",
+    "logo": "/images/Spline.png",
+    "salary": "4050",
+    "email": "olivia.brown@example.com"
+  },
+  {
+    "title": "UI/UX Designer",
+    "location": "London",
+    "companyName": "Raycast corp",
+    "logo": "/images/Raycast.png",
+    "salary": "4050",
+    "email": "william.taylor@example.com"
+  },
+  {
+    "title": "Frontend Developer 2",
+    "location": "London",
+    "companyName": "Loom",
+    "logo": "/images/Loom.png",
+    "salary": "5000",
+    "email": "emma.johnson@example.com"
+  },
+  {
+    "title": "Backend Engineer",
+    "location": "Boston",
+    "companyName": "Trainline group",
+    "logo": "/images/Trainline.png",
+    "salary": "11000",
+    "email": "alexander.martin@example.com"
+  }
+]

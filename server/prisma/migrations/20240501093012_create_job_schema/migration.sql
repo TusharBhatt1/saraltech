@@ -1,0 +1,8 @@
+-- DropIndex
+DROP INDEX "Job_email_key";
+
+-- AlterTable
+ALTER TABLE "Job" ALTER COLUMN "location" DROP NOT NULL,
+ALTER COLUMN "salary" DROP NOT NULL,
+ALTER COLUMN "companyName" DROP NOT NULL,
+ALTER COLUMN "logo" DROP NOT NULL;
