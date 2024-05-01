@@ -4,8 +4,6 @@ import prisma from '../DB/db.config.js';
 export const fetchJobs=async(req,res)=>{
     const jobs=await prisma.job.findMany({})
     return res.json({success:true, data:jobs,message:"Jobs fetched Successfully"})
-    res.json({success:true})
-
 }
 export const getJob=async(req,res)=>{
     const jobId=req.params.id

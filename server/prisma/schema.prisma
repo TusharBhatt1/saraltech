@@ -16,8 +16,3 @@ model Job{
   companyName String?
   logo        String?
 }
-
-// model Comment{
-//   id Int @id @default(autoincrement()),
-//   job Job
-// }
