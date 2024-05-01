@@ -39,7 +39,7 @@ export default function Home() {
   const getAllJobs = async () => {
     setLoading(true);
     try {
-      const pr1 = fetch("https://saraltech-be.onrender.com/api/job/getAll");
+      const pr1 = fetch("http://localhost:5000/api/job/getAll");
       const pr2 = fetch("jobs.json");
       const [jobs1, jobs2] = await Promise.allSettled([pr1, pr2]);
       let data1:JobTypes[]  = [];
