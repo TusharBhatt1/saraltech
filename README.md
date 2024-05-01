@@ -1,11 +1,11 @@
 # Job Posting Platform
 ## A simple job posting platform with CRUD operations.
 ## Frontend:
-Next.js
-Typescript
-Tailwind CSS
+- Next.js
+- Tailwind CSS
+- Typescript
 ## Backend:
-Node.js
-Express.js
-Prisma
-PostgreSQL
+- Node.js
+- Express.js
+- Prisma
+- PostgreSQL
