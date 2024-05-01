@@ -1,7 +1,7 @@
-import { JobType } from '../Pages/Home'
+import { JobTypes } from '../post-job/page';
 import JobBox from './JobBox'
 
-export default function Jobs({jobs,loading}:{jobs:JobType[] | undefined,loading:boolean}) {
+export default function Jobs({jobs,loading}:{jobs:JobTypes[] | undefined,loading:boolean}) {
    const values=["1","2","3","4"]
   
     
