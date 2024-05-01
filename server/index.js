@@ -2,7 +2,7 @@ import express from "express"
 import cors from "cors"
 import routes from "./routes/index.js"
 const app= express()
-const PORT =3001
+const PORT =3002
 
 
 app.use(express.json())
