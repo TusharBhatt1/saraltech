@@ -1,5 +1,5 @@
-# Job Posting Platform
-## A simple job posting platform with CRUD operations.
+# Procareers
+## A job posting platform with CRUD operations and Google authentication.
 ## Frontend:
 - Next.js
 - Tailwind CSS
